@@ -1,6 +1,6 @@
 const express = require('express');
 var router = express.Router();
-const { det,diag,sum,dot,fft,multiply } = require('mathjs');
+const { det,diag,sum,fft,multiply } = require('mathjs');
 
 let responser  = {
     data : '',
