@@ -1,6 +1,7 @@
-var express = require('express');
+const express = require('express');
 const app = express();
-const port = 4000;
+const env_port = require('./env')
+
 const bodyParser = require('body-parser');
 
 
@@ -10,6 +11,7 @@ app.use(bodyParser.json());
 var mainRoute = require('./router');
 app.use('/mathAPI', mainRoute);
 
+const port = process.env.port || env_port
 app.listen(port, ()=>{
     console.log(`App is lstening at the port: ${port}`);
 });

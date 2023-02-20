@@ -1,0 +1,873 @@
+{
+	"info": {
+		"_postman_id": "99c9661e-7d93-45c4-9f7b-a9a21532a5ed",
+		"name": "Math Server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23459805"
+	},
+	"item": [
+		{
+			"name": "arithmetic",
+			"item": [
+				{
+					"name": "add Two numbers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/arithmetic/add/4/2\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"arithmetic",
+								"add",
+								"4",
+								"2\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "subtract Two numbers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/arithmetic/subtract/4/2\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"arithmetic",
+								"subtract",
+								"4",
+								"2\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "multiply",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/arithmetic/multiply/4/2\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"arithmetic",
+								"multiply",
+								"4",
+								"2\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "divide",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/arithmetic/divide/4/2\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"arithmetic",
+								"divide",
+								"4",
+								"2\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "squaroot",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/arithmetic/squaroot/4\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"arithmetic",
+								"squaroot",
+								"4\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "power",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/arithmetic/power/4/2\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"arithmetic",
+								"power",
+								"4",
+								"2\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "absolute",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/arithmetic/absolute/12.2\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"arithmetic",
+								"absolute",
+								"12.2\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ceil",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/arithmetic/ceil/12.2\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"arithmetic",
+								"ceil",
+								"12.2\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cube",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/arithmetic/cube/2\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"arithmetic",
+								"cube",
+								"2\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "floor",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/arithmetic/floor/12.6\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"arithmetic",
+								"floor",
+								"12.6\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "fix",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/arithmetic/fix/12.623/2\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"arithmetic",
+								"fix",
+								"12.623",
+								"2\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "round",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/arithmetic/round/12.6\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"arithmetic",
+								"round",
+								"12.6\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "gcd",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/arithmetic/gcd/4/8\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"arithmetic",
+								"gcd",
+								"4",
+								"8\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "lcm",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/arithmetic/lcm/4/8\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"arithmetic",
+								"lcm",
+								"4",
+								"8\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "log10",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/arithmetic/log10/4\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"arithmetic",
+								"log10",
+								"4\n"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "trignometry",
+			"item": [
+				{
+					"name": "cos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/trignometry/cos/10\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"trignometry",
+								"cos",
+								"10\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "sin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/trignometry/sin/10\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"trignometry",
+								"sin",
+								"10\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tan",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/trignometry/tan/10\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"trignometry",
+								"tan",
+								"10\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cot",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/trignometry/cot/10\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"trignometry",
+								"cot",
+								"10\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "sec",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/trignometry/sec/10\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"trignometry",
+								"sec",
+								"10\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "csc",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/trignometry/csc/10\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"trignometry",
+								"csc",
+								"10\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "asin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/trignometry/asin/10\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"trignometry",
+								"asin",
+								"10\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "acos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/trignometry/acos/10\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"trignometry",
+								"acos",
+								"10\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "atan",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/trignometry/atan/10\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"trignometry",
+								"atan",
+								"10\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "acot",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/trignometry/acot/10\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"trignometry",
+								"acot",
+								"10\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "asec",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/trignometry/asec/10\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"trignometry",
+								"asec",
+								"10\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "acsc",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/trignometry/acsc/10\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"trignometry",
+								"acsc",
+								"10\n"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "bitwise",
+			"item": [
+				{
+					"name": "and",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/bitwise/and/2/3\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"bitwise",
+								"and",
+								"2",
+								"3\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "or",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/bitwise/or/2/3\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"bitwise",
+								"or",
+								"2",
+								"3\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "not",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/bitwise/not/1\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"bitwise",
+								"not",
+								"1\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "xor",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/bitwise/xor/1/4\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"bitwise",
+								"xor",
+								"1",
+								"4\n"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "matrixoperation",
+			"item": [
+				{
+					"name": "det",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mat1\":[[1, 2], [3, 4]]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/matrixoperation/det",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"matrixoperation",
+								"det"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "diag",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mat1\":[[1, 2], [3, 4]]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/matrixoperation/diag",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"matrixoperation",
+								"diag"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "sum",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mat1\":[[1, 2], [3, 4]]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/matrixoperation/sum",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"matrixoperation",
+								"sum"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "multiply",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mat1\" : [[1,2,3],[3,2,1],[2,3,1]],\r\n    \"mat2\" : [[1,2,6],[3,4,1],[2,3,1]]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/matrixoperation/multiply",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"matrixoperation",
+								"multiply"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "fft",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mat1\":[[1, 0], [1, 0]]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/mathAPI/matrixoperation/fft",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"mathAPI",
+								"matrixoperation",
+								"fft"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
